@@ -1,0 +1,13 @@
+.item {
+    margin-right: 100px;
+    max-width: 240px;
+}
+
+.item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.item:nth-child(4n) {
+    align-self: flex-start;
+}
+
